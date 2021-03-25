@@ -9,25 +9,25 @@ const opts = {
     channels: [ 'jakeliny' ]
 };
 
-function mensagemChegou(alvo, contexto, mensagem, isBot) {
+function messageHasArrived(target, context, message, isBot) {
     if (isBot) {
-      return; 
+      return;
     } 
 
-  const nomeDoComando = mensagem.trim();
-    if (nomeDoComando === '!discord') {
-        client.say(alvo, `Entra no discod da devHouse!! https://discord.gg/ubP6kkyttY`);
+  const commandName = message.trim();
+    if (commandName === '!discord') {
+        client.say(target, `Entra no discord da devHouse!! https://discord.gg/ubP6kkyttY`);
     } else {
     return;
     }
   }
   
-  function entrouNoChatDaTwitch(endereco, porta) {
-    console.log(`* Bot entrou no endereço ${endereco}:${porta}`);
+  function joinedTheChatTwitch(address, port) {
+    console.log(`* Bot entrou no endereço ${address}:${port}`);
   }
 
 
 const client = new tmi.client(opts);
-client.on('message', mensagemChegou);
-client.on('connected', entrouNoChatDaTwitch);
+client.on('message', messageHasArrived);
+client.on('connected', joinedTheChatTwitch);
 client.connect();
