@@ -1,6 +1,17 @@
 require('dotenv').config();
 const tmi = require('tmi.js');
 
+const commands = [
+    {
+        name: '!discord', 
+        description: 'Entra no discord da devHouse!! https://discord.gg/ubP6kkyttY'
+    },
+    {
+        name: '!discover', 
+        description: 'Se inscreva no discover https://maratonadiscover.rocketseat.com.br/inscricao'
+    }
+];
+
 const opts = {
     identity: {
     username: 'thasfinbot',
@@ -14,13 +25,13 @@ function mensagemChegou(alvo, contexto, mensagem, isBot) {
       return; 
     } 
 
-  const nomeDoComando = mensagem.trim();
-    if (nomeDoComando === '!discord') {
-        client.say(alvo, `Entra no discod da devHouse!! https://discord.gg/ubP6kkyttY`);
-    } else {
-    return;
+  const command = mensagem.trim();
+  commands.map( commands => {
+    if(commands.name == command){
+        client.say(alvo, commands.description);
     }
-  }
+  });  
+}
   
   function entrouNoChatDaTwitch(endereco, porta) {
     console.log(`* Bot entrou no endereço ${endereco}:${porta}`);
