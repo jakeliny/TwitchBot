@@ -17,10 +17,10 @@ const opts = {
     username: 'thasfinbot',
     password: process.env.TOKEN,
     },
-    channels: [ 'jakeliny' ]
+    channels: [ 'jakeliny', 'maykbrito' ]
 };
 
-function mensagemChegou(alvo, contexto, mensagem, isBot) {
+function mensagemChegou(alvo, context, mensagem, isBot) {
     if (isBot) {
       return; 
     } 
@@ -28,7 +28,7 @@ function mensagemChegou(alvo, contexto, mensagem, isBot) {
   const command = mensagem.trim();
   commands.map( commands => {
     if(commands.name == command){
-        client.say(alvo, commands.description);
+        client.say(alvo, "@" + context.username + " " + commands.description);
     }
   });  
 }
