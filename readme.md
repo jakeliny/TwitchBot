@@ -1,5 +1,4 @@
 # Próximos passos
-- [ ] Colocar as configurações em arquivo separado
 - [ ] Colocar mais comandos
     - [ ] listar comandos
     - [ ] instagram

@@ -2,21 +2,28 @@ require('dotenv').config();
 const tmi = require('tmi.js');
 const commands = require('./commands');
 
-const options = {
-  identity: {
-    username: 'thasfinbot',
-    password: process.env.TOKEN,
-  },
-  channels: ['jakeliny', 'maykbrito'],
-};
+const options = require('./config');
 
-function handleMessage(target, context, message, isBot) {
+function handleMessage(target, context, receivedMessage, isBot) {
+  const message = receivedMessage.trim();
+
   if (isBot) return;
 
-  const command = commands.find((c) => c.name === message.trim());
-  if (!command) return;
+  if( message === '!cmds'){
+    const sendMessage = commands.reduce((accumulator, command) => { 
+      return accumulator + ` ${command.name}`; 
+    }, '');
+    client.say(target, `${sendMessage} `);
+    return;
+  }
 
+  const command = commands.find(c => c.name === message);
+  if (!command) return;
   client.say(target, `@${context.username} ${command.message}`);
+  
+  
+
+
 }
 
 function handleConnected(address, port) {
