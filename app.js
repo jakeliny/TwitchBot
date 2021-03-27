@@ -20,25 +20,25 @@ const opts = {
     channels: [ 'jakeliny', 'maykbrito' ]
 };
 
-function mensagemChegou(alvo, context, mensagem, isBot) {
+function messageHasArrived(target, context, message, isBot) {
     if (isBot) {
-      return; 
+      return;
     } 
 
-  const command = mensagem.trim();
+  const command = message.trim();
   commands.map( commands => {
     if(commands.name == command){
-        client.say(alvo, "@" + context.username + " " + commands.description);
+        client.say(target, "@" + context.username + " " + commands.description);
     }
   });  
 }
   
-  function entrouNoChatDaTwitch(endereco, porta) {
-    console.log(`* Bot entrou no endereço ${endereco}:${porta}`);
+  function joinedTwitchChat(address, port) {
+    console.log(`* Bot entrou no endereço ${address}:${port}`);
   }
 
 
 const client = new tmi.client(opts);
-client.on('message', mensagemChegou);
-client.on('connected', entrouNoChatDaTwitch);
+client.on('message', messageHasArrived);
+client.on('connected', joinedTwitchChat);
 client.connect();
