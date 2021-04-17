@@ -3,10 +3,7 @@
 - [ ] Ouvir os eventos com o pubsub e dar boas vindas no chat
 - [ ] Add verificação de onde vem comando e retornar mensagem equivalente
     Exemplo: !instagram retornar o instagram da jake se vier da lifve da jake
-- [ ] Add nova feature de alerts
-- [ ] add verificação de onde vem comando e retornar mensagem equivalente
-    Exemplo: !instagram retornar o instagram da jake se vier da lifve da jake
-- [ ] Add nova feature de alerts
+- [ ] Add nova feature de alerts (a cada 30 minutos lançar uma frase no chat)
 
 # Feito
 - [X] Criar perfil na twitch para Thasfinbot
