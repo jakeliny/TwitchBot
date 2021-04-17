@@ -28,7 +28,7 @@ Você pode se divertir e usar alguns comandos em live, usando o **prefixo:** `!`
     name: !discover
     message: Se inscreva no discover.
 
-    name: !gihouse
+    name: !githouse
     message: Contribua no Github da DEVHOUSE.
 
     name: !social
