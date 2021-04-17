@@ -42,4 +42,4 @@ Você pode se divertir e usar alguns comandos em live, usando o **prefixo:** `!`
 !setup
 ```
 
-❤️ Projeto Dev House feito em [live na twich](https://twitch.com/jakeliny) por @jakeliny.
+❤️ Projeto Dev House feito em [live na Twitch](https://twitch.com/jakeliny) por @jakeliny.
