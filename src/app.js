@@ -9,7 +9,7 @@ function handleMessage(target, context, receivedMessage, isBot) {
 
   if (isBot) return;
 
-  if( message === '!cmds'){
+  if( message === '!help'){
     const sendMessage = commands.reduce((accumulator, command) => { 
       return accumulator + ` ${command.name}`; 
     }, '');
@@ -20,9 +20,6 @@ function handleMessage(target, context, receivedMessage, isBot) {
   const command = commands.find(c => c.name === message);
   if (!command) return;
   client.say(target, `@${context.username} ${command.message}`);
-  
-  
-
 
 }
 
