@@ -13,3 +13,8 @@
 # Feito
 - [X] Criar perfil na twitch para Thasfinbot
 - [X] Gerar token da thasfinbot
+- [X] Criar perfil na twitch para Thasfinbot
+- [X] Gerar token da thasfinbot
+- [X] Criamos testes
+- [X]  Inserimos novos comandos
+- [X] Deixar read.md bonito
