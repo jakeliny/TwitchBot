@@ -8,7 +8,7 @@ Se preferir você pode navegar por tópicos.
 
 ## 🎉 Introdução
 
-A **Bot Thasfin** é um bot criado para iteragir com o pessoal durante a live, ajudando com links e informações.
+A **Bot Thasfin** é um bot criado para iteragir com o pessoal durante a live na Twitch, ajudando com links e informações.
 
 ### 🙆‍♀️ Como surgi
 
