@@ -1,14 +1,20 @@
 # ThasfinBot
 
+<div align="center">
+    <img src="https://user-images.githubusercontent.com/50425715/115100336-53421700-9f12-11eb-8f23-903ef43ed467.png" alt="ThasfinBot" width=300/>
+</div>
+
 Se preferir você pode navegar por tópicos.
 
-- **[Introdução](#introdução)**
-- **[Tecnologias](#tecnologias)**
-- **[Comandos](#comandos)**
+<p align="center">
+    <a href="introdução">Introdução</a> |
+    <a href="tecnologias">Tecnologias</a> |
+    <a href="comandos">Comandos</a>
+</p>
 
 ## 🎉 Introdução
 
-A **Bot Thasfin** é um bot criado para iteragir com o pessoal durante a live na Twitch, ajudando com links e informações.
+A **ThasfinBot** é um bot criado para iteragir com o pessoal durante a live na Twitch, ajudando com links e informações.
 
 ### 🙆‍♀️ Como surgi
 
@@ -16,25 +22,24 @@ O nome **Thasfin** surgiu da primeira vez em que a @jakeliny jogou RPG, e precis
 
 ## 🚀 Tecnologias
 
-A ThasfinBot foi criada usando **Node.js** e **Javascript**
+A ThasfinBot foi criada usando **Node.js** e **Javascript**.
 
 ## 📚 Comandos
 
 Você pode se divertir e usar alguns comandos em live, usando o **prefixo:** `!`.
 
-    name: !discord
-    message: Entra no discord da devHouse!!
+```
+!discord
 
-    name: !discover
-    message: Se inscreva no discover.
+!discover
 
-    name: !githouse
-    message: Contribua no Github da DEVHOUSE.
+!help
 
-    name: !social
-    message: Siga as minhas redes.
+!githouse
+
+!social
    
-    name: !setup
-    message: Processador AMD Ryzen 5 3600X | Placa de vídeo RTX 2060 super | Placa Mãe B450M Steel Legend | Mem RAM 4x8gb 3200MHz XPG d41 | Fonte CX550W Corsair | Gabinete Gamdias Talos M1B | Teclado Mars Hyper X | Fone Zeus 2 Sakura Editon Redragon | Webcam logitech C925e.
+!setup
+```
 
 ❤️ Projeto Dev House feito em [live na twich](https://twitch.com/jakeliny) por @jakeliny.
