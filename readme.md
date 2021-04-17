@@ -7,9 +7,9 @@
 
 <p align="center">
 Se preferir você pode navegar por tópicos. <br/>
-    <a href="introdução">Introdução</a> |
-    <a href="tecnologias">Tecnologias</a> |
-    <a href="comandos">Comandos</a>
+    <a href="#-introdução">Introdução</a> |
+    <a href="#-tecnologias">Tecnologias</a> |
+    <a href="#-comandos">Comandos</a>
 </p>
 
 ## 🎉 Introdução
