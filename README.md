@@ -16,7 +16,7 @@ O nome **Thasfin** surgiu da primeira vez em que a @jakeliny jogou RPG, e precis
 
 ## 🚀 Tecnologias
 
-A ThasfinBot foi criada usando **Node.js** e **Javascript** utilizando a API da Twitch
+A ThasfinBot foi criada usando **Node.js** e **Javascript**
 
 ## 📚 Comandos
 
