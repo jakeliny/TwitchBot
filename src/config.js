@@ -3,7 +3,7 @@ module.exports = {
       username: 'thasfinbot',
       password: process.env.TOKEN,
     },
-    channels: ['mechamogeo'],
+    channels: ['jakeliny', 'maykbrito'],
     startup: [
         "/color yellowgreen",
         "/me A Thasfin tá na área HeyGuys"
