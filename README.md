@@ -1,6 +1,6 @@
 # ThasfinBot
 
-se prefetir você pode navegar por tópicos.
+Se preferir você pode navegar por tópicos.
 
 - **[Introdução](#introdução)**
 - **[Tecnologias](#tecnologias)**
