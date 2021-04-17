@@ -1,0 +1,131 @@
+{
+  "ignored-commands": [
+    "!sh",
+    "!sh-so",
+    "!sh-mso",
+    "!sh-raid",
+    "!permit"
+  ],
+  "commands": [
+    {
+      "ajuda": "Você recebe um convite para o discord da Dev House",
+      "actions": [
+        "!discord"
+      ],
+      "messages": [
+        "/color yellowgreen",
+        "/me Entra no discord da devHouse!!: https://discord.gg/hUjdjevDCz"
+      ]
+    },
+    {
+      "ajuda": "Fique sabendo mais sobre a Maratona da Discover",
+      "actions": [
+        "!maratona"
+      ],
+      "messages": [
+        "/color yellowgreen",
+        "/me Se inscreva na maratona discover https://maratonadiscover.rocketseat.com.br/inscricao"
+      ]
+    },
+    {
+      "ajuda": "Fique sabendo mais sobre a Discover",
+      "actions": [
+        "!discover"
+      ],
+      "messages": [
+        "/color yellowgreen",
+        "/me Se inscreva no discover https://app.rocketseat.com.br/discover"
+      ]
+    },
+    {
+      "ajuda": "Fique sabendo mais sobre o Github da DevHouse",
+      "actions": [
+        "!githouse",
+        "!git",
+        "!gh"
+      ],
+      "messages": [
+        "/color yellowgreen",
+        "/me Contribua no GitHub da DEVHOUSE https://github.com/dev-house-community"
+      ]
+    },
+    {
+      "ajuda": "DevHouse no youtube",
+      "actions": [
+        "!devhouse",
+        "!yt-dh"
+      ],
+      "messages": [
+        "/color yellowgreen",
+        "/me Inscreva no YouTube da DevHouse https://www.youtube.com/channel/UCFohroq6iQ6N4U4w3w4NXSw"
+      ]
+    },
+    {
+      "ajuda": "As redes sociais da Jake",
+      "actions": [
+        "!social",
+        "!s"
+      ],
+      "messages": [
+        "/color yellowgreen",
+        "/me Siga as minhas redes",
+        "/me Instagram >> https://www.instagram.com/jakeliny.gracielly/",
+        "/me Linkedin >> https://www.linkedin.com/in/jakelinygracielly/"
+      ]
+    },
+    {
+      "ajuda": "Veja a configuração do meu PC",
+      "actions": [
+        "!setup",
+        "!pc",
+        "!config"
+      ],
+      "messages": [
+        "/color yellowgreen",
+        "/me Processador AMD Ryzen 5 3600X",
+        "/me Placa de vídeo RTX 2060 super",
+        "/me Placa Mãe B450M Steel Legend",
+        "/me Mem RAM 4x8gb 3200MHz XPG d41",
+        "/me Fonte CX550W Corsair",
+        "/me Gabinete Gamdias Talos M1B",
+        "/me Teclado Mars Hyper X",
+        "/me Fone Zeus 2 Sakura Editon Redragon",
+        "/me Webcam logitech C925e",
+        "/me Microfone HyperX Quadcast"
+      ]
+    },
+    {
+      "ajuda": "Mostra todos os comandos disponíveis para uso no Bot",
+      "actions": [
+        "!comandos",
+        "!commands",
+        "!cmds"
+      ],
+      "messages": [
+        "/color HotPink",
+        "/me {{ #context.commands }}{{ actions.0 }} {{ /context.commands }}"
+      ]
+    },
+    {
+      "ajuda": "Digite '!ajuda <comando>' para ver a descrição do <comando>",
+      "actions": [
+        "!ajuda",
+        "!a",
+        "!?"
+      ],
+      "messages": "{{{ ajuda }}}"
+    },
+    {
+      "ajuda": "Conta quantas vezes a Jake perdeu o foco, use o comando pra incrementar'!foco 0...10'",
+      "actions": [
+        "!foco",
+        "!lost",
+        "!perdida"
+      ],
+      "messages": [
+        "/color Pink",
+        "/me Nossa a jake até agora já perdeu o foco {{count}}x Kappa"
+      ]
+    }
+  ]
+}
