@@ -16,7 +16,7 @@ Se preferir você pode navegar por tópicos. <br/>
 
 A **ThasfinBot** é um bot criado para iteragir com o pessoal durante a live na Twitch, ajudando com links e informações.
 
-### 🙆‍♀️ Como surgi
+## 🙆‍♀️ Como surgi
 
 O nome **Thasfin** surgiu da primeira vez em que a @jakeliny jogou RPG, e precisou de um nickname, foi ai que o nome **Thasfin Aedin** nasceu, e que foi usando por algum tempo como nickname pela jake e que agora virou um bot em que todos podem interagir.
 
