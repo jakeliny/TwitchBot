@@ -2,7 +2,7 @@ const cron = require('node-cron')
 const getTemplateChannel = require('./useCases/initTemplates/initTemplates')
 
 const getCommandByAction = (action, ignored, commands) => {
-    if(action.split("")[0] != "!") { action = "!".concat(action) }
+    if(action.split("")[0] == "!") { action = action.substring(1,action.length); }
     if (ignored.includes(action)) return null;
 
     let result = commands.map(command => {
@@ -20,9 +20,20 @@ const getCommandByAction = (action, ignored, commands) => {
 const getSanitizedRender = ({ context: { cmd } }, rendered) => {
     let parsed = JSON.parse(rendered)
 
-    if (cmd.actions.includes("!ajuda")) {
-        let splitted = parsed.messages.split("|,")
-        parsed.messages = splitted
+    if (Array.isArray(cmd) && cmd.length > 0) {
+        if (cmd.actions.includes("ajuda")) {
+            let splitted = parsed.messages.split("|,")
+            parsed.messages = splitted
+        }
+    }
+
+    if (Array.isArray(cmd) && cmd.length == 0) {
+        return {
+            messages: [
+                "/color Firebrick",
+                "/me Ops acho que não existe esse comando ai não hein Keepo"
+            ]
+        }
     }
 
     return parsed;

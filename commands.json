@@ -1,16 +1,16 @@
 {
   "ignored-commands": [
-    "!sh",
-    "!sh-so",
-    "!sh-mso",
-    "!sh-raid",
-    "!permit"
+    "sh",
+    "sh-so",
+    "sh-mso",
+    "sh-raid",
+    "permit"
   ],
   "commands": [
     {
       "ajuda": "Você recebe um convite para o discord da Dev House",
       "actions": [
-        "!discord"
+        "discord"
       ],
       "messages": [
         "/color yellowgreen",
@@ -20,7 +20,7 @@
     {
       "ajuda": "Fique sabendo mais sobre a Maratona da Discover",
       "actions": [
-        "!maratona"
+        "maratona"
       ],
       "messages": [
         "/color yellowgreen",
@@ -30,7 +30,7 @@
     {
       "ajuda": "Fique sabendo mais sobre a Discover",
       "actions": [
-        "!discover"
+        "discover"
       ],
       "messages": [
         "/color yellowgreen",
@@ -40,9 +40,9 @@
     {
       "ajuda": "Fique sabendo mais sobre o Github da DevHouse",
       "actions": [
-        "!githouse",
-        "!git",
-        "!gh"
+        "githouse",
+        "git",
+        "gh"
       ],
       "messages": [
         "/color yellowgreen",
@@ -52,8 +52,8 @@
     {
       "ajuda": "DevHouse no youtube",
       "actions": [
-        "!devhouse",
-        "!yt-dh"
+        "devhouse",
+        "yt-dh"
       ],
       "messages": [
         "/color yellowgreen",
@@ -63,8 +63,8 @@
     {
       "ajuda": "As redes sociais da Jake",
       "actions": [
-        "!social",
-        "!s"
+        "social",
+        "s"
       ],
       "messages": [
         "/color yellowgreen",
@@ -76,9 +76,9 @@
     {
       "ajuda": "Veja a configuração do meu PC",
       "actions": [
-        "!setup",
-        "!pc",
-        "!config"
+        "setup",
+        "pc",
+        "config"
       ],
       "messages": [
         "/color yellowgreen",
@@ -97,9 +97,9 @@
     {
       "ajuda": "Mostra todos os comandos disponíveis para uso no Bot",
       "actions": [
-        "!comandos",
-        "!commands",
-        "!cmds"
+        "comandos",
+        "commands",
+        "cmds"
       ],
       "messages": [
         "/color HotPink",
@@ -109,23 +109,30 @@
     {
       "ajuda": "Digite '!ajuda <comando>' para ver a descrição do <comando>",
       "actions": [
-        "!ajuda",
-        "!a",
-        "!?"
+        "ajuda",
+        "a",
+        "?"
       ],
       "messages": "{{{ ajuda }}}"
     },
     {
       "ajuda": "Conta quantas vezes a Jake perdeu o foco, use o comando pra incrementar'!foco 0...10'",
       "actions": [
-        "!foco",
-        "!lost",
-        "!perdida"
+        "foco",
+        "lost",
+        "perdida"
       ],
       "messages": [
-        "/color Pink",
+        "/color DodgerBlue",
         "/me Nossa a jake até agora já perdeu o foco {{count}}x Kappa"
       ]
+    },
+    {
+      "ajuda": "Este comando teste vai rodar quando alguém chamar, sem responder mensagem no chat",
+      "actions": [
+        "console"
+      ],
+      "trigger": "{{ funcaoComandoConsole }}"
     }
   ],
   "automatic": [

@@ -13,12 +13,6 @@ const handler = (client) => async (target, context, receivedMessage, isBot) => {
   let reqCmd = req.shift();
   let cmd = utils.getCommandByAction(reqCmd, ignored, commands);
 
-  // Caso o comando não exista manda uma mensagem
-  if (!cmd) {
-    ["/color HotPink", "/me Esse comando não existe parça Kappa"].forEach(message => client.say(target, message))
-    return
-  }
-
   let args = {
     twitch: { target, context, receivedMessage, isBot },
     context: { cmd, req, commands, ignored, template }
@@ -26,9 +20,12 @@ const handler = (client) => async (target, context, receivedMessage, isBot) => {
 
   // Partials se refe aos useCommands que podem ser chamados a partir
   let partials = await require('../../useCommands')(args);
+
   let rendered = await Mustache.render(JSON.stringify(cmd), { ...partials, ...args });
   let parsed = utils.getSanitizedRender(args, rendered);
 
+  // Sair caso não tenha que retornar mensagens
+  if(parsed.messages == undefined) { return }
   parsed["messages"].forEach(message => client.say(target, message))
 }
 

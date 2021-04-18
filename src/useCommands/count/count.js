@@ -2,12 +2,12 @@ const database = require("../../database")
 const MAX_COUNT = 10;
 
 module.exports = ({ context: { cmd, req } }) => {
-    // Verifica se a chamada tá vindo porque alguém pediu ajuda no comando!
-    if (cmd.actions.includes("!ajuda")) return
+    // Verifica se a chamada tá vindo porque alguém pediu ajuda no comando! (Render do ajuda)
+    if (cmd.actions.includes("ajuda")) return
 
     // Pega o nome da primeira action do comando pra definir como base no db
     const action = cmd.actions[0];
-    const key_db = `count_${action.substring(1, action.length)}`;
+    const key_db = `count_${action}`;
 
     // Pega o valor passado na chamada ou define o valor como 1
     let increment = req.length != 0 ? parseInt(req.shift()) : 1;

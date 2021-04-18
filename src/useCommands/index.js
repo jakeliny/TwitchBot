@@ -3,7 +3,8 @@ const ajuda = require("./ajuda/ajuda")
 
 module.exports = (args) => {
     return {
-        count: count(args),
-        ajuda: ajuda(args)
+        count: () => { return count(args) },
+        ajuda: () => { return ajuda(args) },
+        funcaoComandoConsole: () => { console.log("Oie") }
     }
 }
