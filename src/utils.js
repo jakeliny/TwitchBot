@@ -1,3 +1,4 @@
+const cron = require('node-cron')
 const getTemplateChannel = require('./useCases/initTemplates/initTemplates')
 
 const getCommandByAction = (action, ignored, commands) => {
@@ -27,9 +28,25 @@ const getSanitizedRender = ({ context: { cmd } }, rendered) => {
     return parsed;
 }
 
+const turnOnAutomaticMessages = (channel, client) => {
+    // Hack para funcionar async em funções principais onde não é aceito o async
+    (async () => {
+        let { automatic } = await getTemplateChannel(channel);
+        let autoCron = []
+
+        await automatic.forEach(({schedule, messages}) => {
+            autoCron.push(cron.schedule(schedule, () => {
+                messages.forEach(m => client.say(channel, m))
+            }))
+        })
+
+        autoCron.forEach(auto => auto.start());
+    })()
+}
 
 module.exports = {
     getCommandByAction,
     getTemplateChannel,
-    getSanitizedRender
+    getSanitizedRender,
+    turnOnAutomaticMessages
 }

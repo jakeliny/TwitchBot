@@ -127,5 +127,14 @@
         "/me Nossa a jake até agora já perdeu o foco {{count}}x Kappa"
       ]
     }
+  ],
+  "automatic": [
+    {
+      "schedule": "*/5 * * * *",
+      "messages": [
+        "/color DodgerBlue",
+        "/me Você já ouviu falar do discord da DevHouse? Poxa ainda não te convidaram!? NotLikeThis Clique então no link https://discord.gg/hUjdjevDCz e entra aí no nosso discord ShadyLulu Fala que foi a Thasfin que convidou! GlitchCat"
+      ]
+    }
   ]
 }
