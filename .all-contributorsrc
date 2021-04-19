@@ -49,6 +49,15 @@
       "contributions": [
         "maintenance"
       ]
+    },
+    {
+      "login": "geovanipfranca",
+      "name": "Geovani França",
+      "avatar_url": "https://avatars.githubusercontent.com/u/31046316?v=4",
+      "profile": "http://geovani.dev",
+      "contributions": [
+        "maintenance"
+      ]
     }
   ],
   "contributorsPerLine": 7,
