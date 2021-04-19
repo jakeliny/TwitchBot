@@ -31,6 +31,15 @@
       "contributions": [
         "maintenance"
       ]
+    },
+    {
+      "login": "rafaelnq",
+      "name": "Rafael Nobre",
+      "avatar_url": "https://avatars.githubusercontent.com/u/80119382?v=4",
+      "profile": "https://github.com/rafaelnq",
+      "contributions": [
+        "maintenance"
+      ]
     }
   ],
   "contributorsPerLine": 7,
