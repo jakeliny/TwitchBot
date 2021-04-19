@@ -9,7 +9,9 @@
     <img src="https://img.shields.io/badge/Licence-MIT-brightgreen" alt="Licence MIT"/>
 </p>
 
-<img align="center" src="https://img.shields.io/twitch/status/jakeliny" alt="Twitch live">
+<div align="center">
+    <img src="https://img.shields.io/twitch/status/jakeliny" alt="Twitch live">
+</div>
 
 <p align="center">
 Se preferir você pode navegar por tópicos. <br/>
