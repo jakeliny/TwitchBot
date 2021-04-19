@@ -4,7 +4,17 @@
   ],
   "imageSize": 100,
   "commit": false,
-  "contributors": [],
+  "contributors": [
+    {
+      "login": "jakeliny",
+      "name": "Jakeliny Gracielly",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17316392?v=4",
+      "profile": "http://jakeliny.com.br",
+      "contributions": [
+        "maintenance"
+      ]
+    }
+  ],
   "contributorsPerLine": 7,
   "projectName": "ThasfinBot",
   "projectOwner": "dev-house-community",
