@@ -4,17 +4,7 @@
   ],
   "imageSize": 100,
   "commit": false,
-  "contributors": [
-    {
-      "login": "DevRadhy",
-      "name": "Lucas Jantsch Guedes",
-      "avatar_url": "https://avatars.githubusercontent.com/u/50425715?v=4",
-      "profile": "https://github.com/DevRadhy",
-      "contributions": [
-        "maintenance"
-      ]
-    }
-  ],
+  "contributors": [],
   "contributorsPerLine": 7,
   "projectName": "ThasfinBot",
   "projectOwner": "dev-house-community",
