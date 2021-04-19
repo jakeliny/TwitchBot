@@ -68,6 +68,11 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://github.com/DevRadhy"><img src="https://avatars.githubusercontent.com/u/50425715?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Lucas Jantsch Guedes</b></sub></a><br /><a href="#maintenance-DevRadhy" title="Maintenance">🚧</a></td>
+    <td align="center"><a href="http://jakeliny.com.br"><img src="https://avatars.githubusercontent.com/u/17316392?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jakeliny Gracielly</b></sub></a><br /><a href="#maintenance-jakeliny" title="Maintenance">🚧</a></td>
+    <td align="center"><a href="https://github.com/jorge-lba"><img src="https://avatars.githubusercontent.com/u/56704254?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jorge Alegretti</b></sub></a><br /><a href="#maintenance-jorge-lba" title="Maintenance">🚧</a></td>
+    <td align="center"><a href="http://www.linkedin.com/in/diego-parente-56358998"><img src="https://avatars.githubusercontent.com/u/7936432?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Diego Parente</b></sub></a><br /><a href="#maintenance-diegosparente" title="Maintenance">🚧</a></td>
+    <td align="center"><a href="https://github.com/rafaelnq"><img src="https://avatars.githubusercontent.com/u/80119382?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Rafael Nobre</b></sub></a><br /><a href="#maintenance-rafaelnq" title="Maintenance">🚧</a></td>
+    <td align="center"><a href="http://geovani.dev"><img src="https://avatars.githubusercontent.com/u/31046316?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Geovani França</b></sub></a><br /><a href="#maintenance-geovanipfranca" title="Maintenance">🚧</a></td>
   </tr>
 </table>
 
