@@ -6,11 +6,19 @@
   "commit": false,
   "contributors": [
     {
+      "login": "DevRadhy",
+      "name": "Lucas Jantsch Guedes",
+      "avatar_url": "https://avatars.githubusercontent.com/u/50425715?v=4",
+      "profile": "https://github.com/DevRadhy",
+      "contributions": [
+        "maintenance"
+      ]
+    },
+    {
       "login": "jakeliny",
       "name": "Jakeliny Gracielly",
       "avatar_url": "https://avatars.githubusercontent.com/u/17316392?v=4",
       "profile": "http://jakeliny.com.br",
-
       "contributions": [
         "maintenance"
       ]
@@ -20,7 +28,6 @@
       "name": "Jorge Alegretti",
       "avatar_url": "https://avatars.githubusercontent.com/u/56704254?v=4",
       "profile": "https://github.com/jorge-lba",
-      
       "contributions": [
         "maintenance"
       ]
