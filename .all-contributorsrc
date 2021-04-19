@@ -4,7 +4,17 @@
   ],
   "imageSize": 100,
   "commit": false,
-  "contributors": [],
+  "contributors": [
+    {
+      "login": "jorge-lba",
+      "name": "Jorge Alegretti",
+      "avatar_url": "https://avatars.githubusercontent.com/u/56704254?v=4",
+      "profile": "https://github.com/jorge-lba",
+      "contributions": [
+        "maintenance"
+      ]
+    }
+  ],
   "contributorsPerLine": 7,
   "projectName": "ThasfinBot",
   "projectOwner": "dev-house-community",
