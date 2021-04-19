@@ -57,16 +57,3 @@ Você pode se divertir e usar alguns comandos em live, usando o **prefixo:** `!`
 ❤️ Projeto Dev House feito em [live na Twitch](https://twitch.com/jakeliny) por [@jakeliny](https://github.com/jakeliny).
 
 💜 Logo criada por [@geovanipfranca](https://github.com/geovanipfranca).
-
-## Contributors ✨
-
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
-
-<!-- ALL-CONTRIBUTORS-LIST:END -->
