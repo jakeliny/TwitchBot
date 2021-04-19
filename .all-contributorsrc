@@ -31,6 +31,15 @@
       "contributions": [
         "maintenance"
       ]
+    },
+    {
+      "login": "diegosparente",
+      "name": "Diego Parente",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7936432?v=4",
+      "profile": "http://www.linkedin.com/in/diego-parente-56358998",
+      "contributions": [
+        "maintenance"
+      ]
     }
   ],
   "contributorsPerLine": 7,
