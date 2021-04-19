@@ -4,11 +4,22 @@
     <img src="https://user-images.githubusercontent.com/50425715/115100336-53421700-9f12-11eb-8f23-903ef43ed467.png" alt="ThasfinBot" width=300/>
 </div>
 
+<p align="center">
+    <img src="https://img.shields.io/badge/PR-Welcome-brightgreen" alt="PR Open"/>
+    <img src="https://img.shields.io/badge/Licence-MIT-brightgreen" alt="Licence MIT"/>
+</p>
+
+<div align="center">
+    <img src="https://img.shields.io/twitch/status/jakeliny" alt="Twitch live">
+</div>
+
+<br />
+<br />
 
 <p align="center">
 Se preferir você pode navegar por tópicos. <br/>
-    <a href="#-introdução">Introdução</a> |
-    <a href="#-tecnologias">Tecnologias</a> |
+    <a href="#-introdução">Introdução</a> •
+    <a href="#-tecnologias">Tecnologias</a> •
     <a href="#-comandos">Comandos</a>
 </p>
 
