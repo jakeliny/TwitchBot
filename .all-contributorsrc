@@ -1,0 +1,82 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributorsSortAlphabetically": true,
+  "contributors": [
+    {
+      "login": "DevRadhy",
+      "name": "Lucas Jantsch Guedes",
+      "avatar_url": "https://avatars.githubusercontent.com/u/50425715?v=4",
+      "profile": "https://github.com/DevRadhy",
+      "contributions": [
+        "developer"
+      ]
+    },
+    {
+      "login": "jakeliny",
+      "name": "Jakeliny Gracielly",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17316392?v=4",
+      "profile": "http://jakeliny.com.br",
+      "contributions": [
+        "developer"
+      ]
+    },
+    {
+      "login": "jorge-lba",
+      "name": "Jorge Alegretti",
+      "avatar_url": "https://avatars.githubusercontent.com/u/56704254?v=4",
+      "profile": "https://github.com/jorge-lba",
+      "contributions": [
+        "developer"
+      ]
+    },
+    {
+      "login": "diegosparente",
+      "name": "Diego Parente",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7936432?v=4",
+      "profile": "http://www.linkedin.com/in/diego-parente-56358998",
+      "contributions": [
+        "contributor"
+      ]
+    },
+    {
+      "login": "rafaelnq",
+      "name": "Rafael Nobre",
+      "avatar_url": "https://avatars.githubusercontent.com/u/80119382?v=4",
+      "profile": "https://github.com/rafaelnq",
+      "contributions": [
+        "contributor"
+      ]
+    },
+    {
+      "login": "geovanipfranca",
+      "name": "Geovani França",
+      "avatar_url": "https://avatars.githubusercontent.com/u/31046316?v=4",
+      "profile": "http://geovani.dev",
+      "contributions": [
+        "contributor"
+      ]
+    }
+  ],
+  "types": {
+    "contributor": {
+      "symbol": "🚀",
+      "description": "A custom contribution type.",
+      "link": "[<%= symbol %>](<%= url %> \"<%= description %>\"),"
+    },
+    "developer": {
+      "symbol": "🧑‍🚀",
+      "description": "A custom contribution type.",
+      "link": "[<%= symbol %>](<%= url %> \"<%= description %>\"),"
+    }
+  },
+  "contributorsPerLine": 7,
+  "projectName": "ThasfinBot",
+  "projectOwner": "dev-house-community",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
