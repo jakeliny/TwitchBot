@@ -14,8 +14,8 @@ const findCommandByAction = (action, ignored, commands) => {
 
     // Iteração para buscar o commando e retornar
     for (const index in commands) {
-        if(commands[index].actions?.includes(action)) { return { find: true, reserved: false, command: commands[index]}; }
-        else { continue }
+        if(commands[index].actions?.includes(action)) { return { find: true, reserved: false, command: commands[index] }; }
+        else { continue; }
     }
 
     return { find: false, reserved: false, command: null };
@@ -32,9 +32,9 @@ const findCommandByAction = (action, ignored, commands) => {
  * @returns {{messages: string[]}|null|command}
  */
 const getSanitizedRender = ({ context: { cmd: { find, action } }, twitch: { context: username } }, rendered) => {
-    const parsed = JSON.parse(rendered)
+    const parsed = JSON.parse(rendered);
     const isExistentCommand = find == true;
-    if(parsed == null && !isExistentCommand) return {messages: ["/color Firebrick", `/me Ops @${username} acho que não existe esse comando ${action} não hein Keepo`]};
+    if(!isExistentCommand) return {messages: ["/color Firebrick", `/me Ops @${username} acho que não existe esse comando ${action} não hein Keepo`]};
     else if(parsed == null) return null;
 
     // Função que caso a mensagem for string transforma ela em Array separando por \n
@@ -43,7 +43,7 @@ const getSanitizedRender = ({ context: { cmd: { find, action } }, twitch: { cont
         return messages;
     }
 
-    parsed.messages = sanitizeMessagesFromStringToArray(parsed)
+    parsed.messages = sanitizeMessagesFromStringToArray(parsed);
     return parsed;
 }
 
@@ -58,14 +58,14 @@ const turnOnAutomaticMessages = (channel, client) => {
     (async () => {
         // Pega todos os comandos que rodam um determinado tempo configurado pelo cron no template
         const { automatic } = await getTemplateChannel(channel);
-        const autoCron = []
+        const autoCron = [];
 
         // Cria um novo schedule com o cron para cada mensagem automática
         await automatic.forEach(({schedule, messages}) => {
             autoCron.push(cron.schedule(schedule, () => {
-                messages.forEach(m => client.say(channel, m))
-            }))
-        })
+                messages.forEach(m => client.say(channel, m));
+            }));
+        });
 
         // Executa cada uma das mensagens automáticas depois de criadas
         autoCron.forEach(auto => auto.start());

@@ -9,14 +9,14 @@ const utils = require('../../utils');
 module.exports = (client) => async (target, context, receivedMessage, isBot) => {
   // Varifica se quem mandou a mensagem não é bot e se a mensagem é um comando aceitável
   if (isBot) return;
-  if (!receivedMessage.startsWith("!")) return
+  if (!receivedMessage.startsWith("!")) return;
 
   // Inicializa as constantes para processo de tratamento do comando (action)
   const req = receivedMessage.split(" ");
   const action = req.shift();
   const template = await utils.getTemplateChannel(target);
-  const ignored = template["ignored-commands"]
-  const commands = template["commands"]
+  const ignored = template["ignored-commands"];
+  const commands = template["commands"];
 
   // Busca o comando no template do canal e define os argumentos e contexto para uso no comando
   const cmd = utils.findCommandByAction(action, ignored, commands);
@@ -35,7 +35,5 @@ module.exports = (client) => async (target, context, receivedMessage, isBot) => 
 
     if (shouldPrintMessages) parsed["messages"].forEach(message => client.say(target, message));
   }
-  catch (e) {
-    utils.sendErrorCommand(client, args, e)
-  }
+  catch (e) { utils.sendErrorCommand(client, args, e); }
 }

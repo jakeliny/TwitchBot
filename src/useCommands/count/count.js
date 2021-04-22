@@ -24,13 +24,13 @@ const getIncrementValueDatabase = async(key, value) => {
     const saved = await database.get("counts").find({ key }).value() || { key, value: 0 };
 
     // Incrementa o valor em database/inicial com o valor de incremento
-    saved.value += value
+    saved.value += value;
 
     // Remove o estado atual (JSON Db - se salvar de novo sem apagar cria outro objeto)
-    await database.get('counts').remove({ key }).write()
+    await database.get('counts').remove({ key }).write();
 
     // Salva no banco o novo valor de counts e retorna esse valor
-    await database.get("counts").push(saved).write()
+    await database.get("counts").push(saved).write();
     return saved.value;
 }
 

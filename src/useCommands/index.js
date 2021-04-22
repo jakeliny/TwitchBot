@@ -1,5 +1,5 @@
 const count = require("./count/count");
-const help = require("./help/help")
+const help = require("./help/help");
 
 /**
  * Funlções que podem ser executadas pelo Mustache na hora de ler o commands (Executa a função e retorna valor ou não)

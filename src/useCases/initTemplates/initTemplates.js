@@ -1,5 +1,5 @@
 const LRU = require("lru-cache");
-const path = require("path")
+const path = require("path");
 const fs = require('fs').promises;
 
 const cache = new LRU({ maxAge: 500 * 60 * 60 });

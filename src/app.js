@@ -2,7 +2,7 @@ require('dotenv').config();
 const tmi = require('tmi.js');
 const handleCommands = require('./useCases/handleCommands/handleCommands')
 
-const utils = require('./utils')
+const utils = require('./utils');
 const options = require('./config');
 
 function handleConnected(address, port) {
@@ -10,7 +10,7 @@ function handleConnected(address, port) {
 
   options.channels.forEach(channel => {
     utils.turnOnAutomaticMessages(channel, this);
-    options.startup.forEach(m => this.say(channel, m))
+    options.startup.forEach(m => this.say(channel, m));
   })
 }
 

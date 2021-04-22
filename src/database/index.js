@@ -8,6 +8,6 @@ const FileSync = require('lowdb/adapters/FileSync')
  * @returns {db}
  */
 module.exports = () => {
-    const adapter = new FileSync(path.resolve('src','database','db.json'))
+    const adapter = new FileSync(path.resolve('src','database','db.json'));
     return low(adapter);
 }

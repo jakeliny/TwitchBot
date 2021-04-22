@@ -6,7 +6,7 @@ const utils = require("../../utils")
  * @returns {string} String unica com todas as posições do array separados por ~break~
  */
 const JoinMessagesToSanitizeResponse = (messages) => {
-    return messages.join("~break~")
+    return messages.join("~break~");
 }
 
 /**
@@ -19,7 +19,7 @@ const JoinMessagesToSanitizeResponse = (messages) => {
  */
 module.exports = ({ twitch: { context: { username } }, context: { req, commands, ignored} }) => {
     let action = "help";
-    if (req.length != 0) { action = req.shift() }
+    if (req.length != 0) { action = req.shift(); }
 
     const { find, reserved, command } = utils.findCommandByAction(action, ignored, commands);
     const isReservedCommandSearch = reserved == true;
