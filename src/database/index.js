@@ -1,11 +1,13 @@
-const path = require("path")
+const path = require("path");
+const low = require('lowdb');
 
-const low = require('lowdb')
 const FileSync = require('lowdb/adapters/FileSync')
 
-const initialize = () => {
+/**
+ * Este método inicia um database lowdb utilizando o arquivo db.json como memory
+ * @returns {db}
+ */
+module.exports = () => {
     const adapter = new FileSync(path.resolve('src','database','db.json'))
     return low(adapter);
 }
-
-module.exports = initialize()
