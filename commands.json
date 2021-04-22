@@ -8,7 +8,7 @@
   ],
   "commands": [
     {
-      "ajuda": "Você recebe um convite para o discord da Dev House",
+      "help": "Você recebe um convite para o discord da Dev House",
       "actions": [
         "discord"
       ],
@@ -18,7 +18,7 @@
       ]
     },
     {
-      "ajuda": "Fique sabendo mais sobre a Maratona da Discover",
+      "help": "Fique sabendo mais sobre a Maratona da Discover",
       "actions": [
         "maratona"
       ],
@@ -28,7 +28,7 @@
       ]
     },
     {
-      "ajuda": "Fique sabendo mais sobre a Discover",
+      "help": "Fique sabendo mais sobre a Discover",
       "actions": [
         "discover"
       ],
@@ -38,7 +38,7 @@
       ]
     },
     {
-      "ajuda": "Fique sabendo mais sobre o Github da DevHouse",
+      "help": "Fique sabendo mais sobre o Github da DevHouse",
       "actions": [
         "githouse",
         "git",
@@ -50,7 +50,7 @@
       ]
     },
     {
-      "ajuda": "DevHouse no youtube",
+      "help": "DevHouse no youtube",
       "actions": [
         "devhouse",
         "yt-dh"
@@ -61,7 +61,7 @@
       ]
     },
     {
-      "ajuda": "As redes sociais da Jake",
+      "help": "As redes sociais da Jake",
       "actions": [
         "social",
         "s"
@@ -74,7 +74,7 @@
       ]
     },
     {
-      "ajuda": "Veja a configuração do meu PC",
+      "help": "Veja a configuração do meu PC",
       "actions": [
         "setup",
         "pc",
@@ -95,7 +95,7 @@
       ]
     },
     {
-      "ajuda": "Mostra todos os comandos disponíveis para uso no Bot",
+      "help": "Mostra todos os comandos disponíveis para uso no Bot",
       "actions": [
         "comandos",
         "commands",
@@ -107,16 +107,16 @@
       ]
     },
     {
-      "ajuda": "Digite '!ajuda <comando>' para ver a descrição do <comando>",
+      "help": "Digite '!ajuda <comando>' para ver a descrição do <comando>",
       "actions": [
         "ajuda",
-        "a",
+        "help",
         "?"
       ],
-      "messages": "{{{ ajuda }}}"
+      "messages": "{{{ help }}}"
     },
     {
-      "ajuda": "Conta quantas vezes a Jake perdeu o foco, use o comando pra incrementar'!foco 0...10'",
+      "help": "Conta quantas vezes a Jake perdeu o foco, use o comando pra incrementar'!foco 0...10'",
       "actions": [
         "foco",
         "lost",
@@ -128,7 +128,7 @@
       ]
     },
     {
-      "ajuda": "Este comando teste vai rodar quando alguém chamar, sem responder mensagem no chat",
+      "help": "Este comando teste vai rodar quando alguém chamar, sem responder mensagem no chat",
       "actions": [
         "console"
       ],
