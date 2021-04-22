@@ -18,11 +18,11 @@ Fazer commits de forma correta também é muito importante em todos os projetos,
 
 Em contribuições **Open Souce** uma boa maneira de revisar um **PR** é vendo quais arquivos foram modificados, mas isso muda a partir do momento em que vários arquivos estão sendo modificados, entrando em contextos diferentes, nesses casos navegar atravéz de commits se torna uma melhor opção, podendo analizar o código por contextos de modificação, fica mais compreensível ver o que está acontecendo no código, por isso é muito importante sempre escrever as menssagens de commits de forma clara e legível, além é claro de adicionar somente os arquivos que façam parte do contexto da modificação no commit.
 
-Caso você precise alterar uma menssagem de commit, o Github mostra como fazer isso na documentação no seguinte link. [Alterando menssagens de commits](changing-a-commit-message).
+Caso você precise alterar uma menssagem de commit, o Github mostra como fazer isso na documentação no seguinte link. [Alterando menssagens de commits](/changing-a-commit-message).
 
-Depois dessa breve descrição sobre a importancia de ter commits declarativos, podemos entrar no caso em que se possa fazer uma modificação no projeto em grupos ou times, e dar o crédito para todos é muito importante, e para isso você pode adicionar Co-autores aos commits, o Github mostra com o fazer isso. Adicionado Co-autores aos commits - [Criando commits com multiplos autores](commit-with-multiple-authors).
+Depois dessa breve descrição sobre a importancia de ter commits declarativos, podemos entrar no caso em que se possa fazer uma modificação no projeto em grupos ou times, e dar o crédito para todos é muito importante, e para isso você pode adicionar Co-autores aos commits, o Github mostra com o fazer isso. Adicionado Co-autores aos commits - [Criando commits com multiplos autores](/commit-with-multiple-authors).
 
-Se preferir, Aqui está uma sugestão de **Code/drops** produzido no canal da **[Rocketseat](rocketseat-youtube)** que pode ser útil na hora de fazer commits no projeto. [Padronizando seus commits](code-drops-video).
+Se preferir, Aqui está uma sugestão de **Code/drops** produzido no canal da **[Rocketseat](rocketseat-youtube)** que pode ser útil na hora de fazer commits no projeto. [Padronizando seus commits](/code-drops-video).
 
 [changing-a-commit-message]: https://docs.github.com/pt/github/committing-changes-to-your-project/changing-a-commit-message
 [commit-with-multiple-authors]: https://docs.github.com/pt/github/committing-changes-to-your-project/creating-a-commit-with-multiple-authors
