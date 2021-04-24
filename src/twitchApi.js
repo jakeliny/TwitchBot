@@ -1,3 +1,8 @@
+// const { EventSubListener } = require('twitch-eventsub')
+
+// import { ApiClient } from 'twitch';
+// import { ClientCredentialsAuthProvider } from 'twitch-auth';
+// import { DirectConnectionAdapter, EventSubListener } from 'twitch-eventsub';
 
 // const { EventSubListener } = require('twitch-eventsub')
 
