@@ -10,7 +10,7 @@ Você verá a importância de descrever de forma correta as alterações feitas,
 
 Essa é somente uma de várias das práticas recomendadas que devem ser seguidas para criar **Issues** e **Pull Requests** de forma correta, e que pode aumentar as chances de sua modificação ser adicionada ao projeto, além de seguir as recomendações propostas para fazer contribuições.
 
-Os títulos e descrições precisam ser coerentes e descrever o que realmente está acontecendo. O título deve descrever a intenção da modificação, enquando a descrição deve conter detalhadamente o que foi mudado e a pretenção, isso ajuda com que os revisores possam ter uma visão mais ampla do que você pretende fazer, antes de revisar o código.
+Os títulos e descrições precisam ser coerentes e descrever o que realmente está acontecendo. O título deve descrever a intenção da modificação, enquanto a descrição deve conter detalhadamente o que foi mudado e a pretensão, isso ajuda com que os revisores possam ter uma visão mais ampla do que você pretende fazer, antes de revisar o código.
 
 ## COMMITS SEMÂNTICOS
 
