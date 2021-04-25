@@ -20,7 +20,7 @@ Em contribuições **Open Souce** uma boa maneira de revisar um **PR** é vendo 
 
 Caso você precise alterar uma menssagem de commit, o Github mostra como fazer isso na documentação no seguinte link. [Alterando menssagens de commits][changing-a-commit-message].
 
-Depois dessa breve descrição sobre a importancia de ter commits declarativos, podemos entrar no caso em que se possa fazer uma modificação no projeto em grupos ou times, e dar o crédito para todos é muito importante, e para isso você pode adicionar Co-autores aos commits, o Github mostra com o fazer isso. Adicionado Co-autores aos commits - [Criando commits com multiplos autores][commit-with-multiple-authors].
+Depois dessa breve descrição sobre a importância de ter commits declarativos, podemos entrar no caso em que se possa fazer uma modificação no projeto em grupos ou times, e dar o crédito para todos é muito importante, e para isso você pode adicionar Co-autores aos commits, o Github mostra com o fazer isso. Adicionado Co-autores aos commits - [Criando commits com múltiplos autores][commit-with-multiple-authors].
 
 Se preferir, Aqui está uma sugestão de **Code/drops** produzido no canal da **[Rocketseat][rocketseat-youtube]** que pode ser útil na hora de fazer commits no projeto. [Padronizando seus commits][code-drops-video].
 
