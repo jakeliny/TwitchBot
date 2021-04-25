@@ -14,7 +14,7 @@ Os títulos e descrições precisam ser coerentes e descrever o que realmente es
 
 ## COMMITS SEMÂNTICOS
 
-Fazer commits de forma correta também é muito importante em todos os projetos, seja em contribuições **Open Souce**, pojetos privados, ou até mesmo em projetos pessoais, é muito importante ter messagens de commits que descrevam realmente o que a alreração no código está fazendo.
+Fazer commits de forma correta também é muito importante em todos os projetos, seja em contribuições **Open Souce**, projetos privados, ou até mesmo em projetos pessoais, é muito importante ter mensagens de commits que descrevam realmente o que a alteração no código está fazendo.
 
 Em contribuições **Open Souce** uma boa maneira de revisar um **PR** é vendo quais arquivos foram modificados, mas isso muda a partir do momento em que vários arquivos estão sendo modificados, entrando em contextos diferentes, nesses casos navegar atravéz de commits se torna uma melhor opção, podendo analizar o código por contextos de modificação, fica mais compreensível ver o que está acontecendo no código, por isso é muito importante sempre escrever as menssagens de commits de forma clara e legível, além é claro de adicionar somente os arquivos que façam parte do contexto da modificação no commit.
 
