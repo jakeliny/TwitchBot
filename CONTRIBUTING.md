@@ -2,7 +2,7 @@
 
 Aqui você irá encontrar algumas práticas recomendadas que devem ser levadas em consideração na hora de criar **Issues** e **Pull Requests**, e que pode aumentar as chances da sua alteração ser adicionada ao projeto.
 
-Você verá a importância de descrever de forma correta as alterações feitas, e como isso pode ajudar as pessoas que mantem o projeto e que revisam as **Issues** e **Pull Requests**.
+Você verá a importância de descrever de forma correta as alterações feitas, e como isso pode ajudar as pessoas que mantém o projeto e que revisam as **Issues** e **Pull Requests**.
 
 É muito importate e recomendado que você leia o **[CODE_OF_CONDUCT](CODE_OF_CONDUCT.md)** do projeto antes de qualquer coisa, lá está descrito o que não é permitido de maneira alguma dentro do alcance da comunidade.
 
