@@ -16,7 +16,7 @@ Os títulos e descrições precisam ser coerentes e descrever o que realmente es
 
 Fazer commits de forma correta também é muito importante em todos os projetos, seja em contribuições **Open Souce**, projetos privados, ou até mesmo em projetos pessoais, é muito importante ter mensagens de commits que descrevam realmente o que a alteração no código está fazendo.
 
-Em contribuições **Open Souce** uma boa maneira de revisar um **PR** é vendo quais arquivos foram modificados, mas isso muda a partir do momento em que vários arquivos estão sendo modificados, entrando em contextos diferentes, nesses casos navegar atravéz de commits se torna uma melhor opção, podendo analizar o código por contextos de modificação, fica mais compreensível ver o que está acontecendo no código, por isso é muito importante sempre escrever as menssagens de commits de forma clara e legível, além é claro de adicionar somente os arquivos que façam parte do contexto da modificação no commit.
+Em contribuições **Open Souce** uma boa maneira de revisar um **PR** é vendo quais arquivos foram modificados, mas isso muda a partir do momento em que vários arquivos estão sendo modificados, entrando em contextos diferentes, nesses casos navegar através de commits se torna uma melhor opção, podendo analisar o código por contextos de modificação, fica mais compreensível ver o que está acontecendo no código, por isso é muito importante sempre escrever as mensagens de commits de forma clara e legível, além é claro de adicionar somente os arquivos que façam parte do contexto da modificação no commit.
 
 Caso você precise alterar uma menssagem de commit, o Github mostra como fazer isso na documentação no seguinte link. [Alterando menssagens de commits][changing-a-commit-message].
 
