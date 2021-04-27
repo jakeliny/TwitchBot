@@ -10,7 +10,7 @@ function handleConnected(address, port) {
 
   options.channels.forEach(channel => {
     utils.turnOnAutomaticMessages(channel, this);
-    options.startup.forEach(m => this.say(channel, m));
+    options.startup.forEach(msg => this.say(channel, msg));
   })
 }
 
