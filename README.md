@@ -54,7 +54,7 @@ Você pode se divertir e usar alguns comandos em live, usando o **prefixo:** `!`
 ```
 
 
-❤️ Projeto Dev House feito em [live na Twitch](https://twitch.com/jakeliny) por [@jakeliny](https://github.com/jakeliny).
+❤️ Projeto Dev House idealizado em [live na Twitch](https://twitch.com/jakeliny) por [@jakeliny](https://github.com/jakeliny).
 
 💜 Logo criada por [@geovanipfranca](https://github.com/geovanipfranca).
 
