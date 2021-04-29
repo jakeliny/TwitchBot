@@ -4,4 +4,8 @@ module.exports = {
       password: process.env.TOKEN,
     },
     channels: ['jakeliny', 'maykbrito'],
+    startup: [
+        "/color yellowgreen",
+        "/me A Thasfin tá na área HeyGuys"
+    ],
   };

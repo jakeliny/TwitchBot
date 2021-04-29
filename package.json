@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon src/app.js",
+    "start": "nodemon -i 'src/database/db.json' src/app.js",
     "test": "jest"
   },
   "keywords": [],
@@ -12,6 +12,10 @@
   "license": "ISC",
   "dependencies": {
     "dotenv": "^8.2.0",
+    "lowdb": "^1.0.0",
+    "lru-cache": "^6.0.0",
+    "mustache-async": "^0.1.3",
+    "node-cron": "^3.0.0",
     "nodemon": "^2.0.7",
     "tmi.js": "^1.7.5",
     "twitch": "^4.5.5",
