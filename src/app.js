@@ -1,16 +1,22 @@
 require('dotenv').config();
 const tmi = require('tmi.js');
-const handleOpenCommands = require('./useCases/openCommands')
+const handleCommands = require('./useCases/handleCommands/handleCommands')
 
+const utils = require('./utils');
 const options = require('./config');
 
 function handleConnected(address, port) {
-  console.log(`* Bot entrou no endereço ${address}:${port}`);
+  console.log(`*** Bot conectado com sucesso no IRC (${address}:${port}} nos canais [${options.channels}]`);
+
+  options.channels.forEach(channel => {
+    utils.turnOnAutomaticMessages(channel, this);
+    options.startup.forEach(msg => this.say(channel, msg));
+  })
 }
 
 const client = new tmi.client(options);
 
-client.on('message', handleOpenCommands(client));
+client.on('message', handleCommands(client));
 client.on('connected', handleConnected);
 
 client.connect();
