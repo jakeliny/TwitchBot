@@ -41,9 +41,7 @@
     {
       "help": "Fique sabendo mais sobre o Github da DevHouse",
       "actions": [
-        "githouse",
-        "git",
-        "gh"
+        "githouse"
       ],
       "messages": [
         "/color yellowgreen",
@@ -53,8 +51,7 @@
     {
       "help": "As redes sociais da Jake",
       "actions": [
-        "social",
-        "s"
+        "social"
       ],
       "messages": [
         "/color yellowgreen",
