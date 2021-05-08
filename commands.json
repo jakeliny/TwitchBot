@@ -15,7 +15,7 @@
       ],
       "messages": [
         "/color yellowgreen",
-        "/me Entra no discord da devHouse!!: https://discord.gg/Dxw8heVW"
+        "Entra no discord da devHouse!!: https://discord.gg/Dxw8heVW"
       ]
     },
     {
@@ -25,7 +25,7 @@
       ],
       "messages": [
         "/color yellowgreen",
-        "/me Se inscreva na maratona discover https://maratonadiscover.rocketseat.com.br/inscricao"
+        "Se inscreva na maratona discover https://maratonadiscover.rocketseat.com.br/inscricao"
       ]
     },
     {
@@ -35,7 +35,7 @@
       ],
       "messages": [
         "/color yellowgreen",
-        "/me Se inscreva no discover https://app.rocketseat.com.br/discover"
+        "Se inscreva no discover https://app.rocketseat.com.br/discover"
       ]
     },
     {
@@ -47,7 +47,7 @@
       ],
       "messages": [
         "/color yellowgreen",
-        "/me Contribua no GitHub da DEVHOUSE https://github.com/dev-house-community"
+        "Contribua no GitHub da DEVHOUSE https://github.com/dev-house-community"
       ]
     },
     {
@@ -58,9 +58,9 @@
       ],
       "messages": [
         "/color yellowgreen",
-        "/me Siga as minhas redes",
-        "/me Instagram >> https://www.instagram.com/jakeliny.gracielly/",
-        "/me Linkedin >> https://www.linkedin.com/in/jakelinygracielly/"
+        "Siga as minhas redes",
+        "Instagram >> https://www.instagram.com/jakeliny.gracielly/",
+        "Linkedin >> https://www.linkedin.com/in/jakelinygracielly/"
       ]
     },
     {
@@ -72,16 +72,16 @@
       ],
       "messages": [
         "/color yellowgreen",
-        "/me Processador AMD Ryzen 5 3600X",
-        "/me Placa de vídeo RTX 2060 super",
-        "/me Placa Mãe B450M Steel Legend",
-        "/me Mem RAM 4x8gb 3200MHz XPG d41",
-        "/me Fonte CX550W Corsair",
-        "/me Gabinete Gamdias Talos M1B",
-        "/me Teclado Mars Hyper X",
-        "/me Fone Zeus 2 Sakura Editon Redragon",
-        "/me Webcam logitech C925e",
-        "/me Microfone HyperX Quadcast"
+        "Processador AMD Ryzen 5 3600X",
+        "Placa de vídeo RTX 2060 super",
+        "Placa Mãe B450M Steel Legend",
+        "Mem RAM 4x8gb 3200MHz XPG d41",
+        "Fonte CX550W Corsair",
+        "Gabinete Gamdias Talos M1B",
+        "Teclado Mars Hyper X",
+        "Fone Zeus 2 Sakura Editon Redragon",
+        "Webcam logitech C925e",
+        "Microfone HyperX Quadcast"
       ]
     },
     {
@@ -93,7 +93,7 @@
       ],
       "messages": [
         "/color HotPink",
-        "/me {{ #context.commands }}{{ actions.0 }} {{ /context.commands }}"
+        "{{ #context.commands }}{{ actions.0 }} {{ /context.commands }}"
       ]
     },
     {
@@ -104,7 +104,7 @@
       ],
       "messages": [
         "/color HotPink",
-        "/me Estamos trabalhando em um bot para a twitch, esses comandos no chat que são enviados pela ThasfinBot ja é o nosso Bot em ação. Estamos no momento refatorando e melhorando para ser um serviço que outros streamers possam usar"
+        "Estamos trabalhando em um bot para a twitch, esses comandos no chat que são enviados pela ThasfinBot ja é o nosso Bot em ação. Estamos no momento refatorando e melhorando para ser um serviço que outros streamers possam usar"
       ]
     },
     {
@@ -115,7 +115,7 @@
       ],
       "messages": [
         "/color HotPink",
-        "/me Meu github: https://github.com/jakeliny"
+        "Meu github: https://github.com/jakeliny"
       ]
     },
     {
@@ -126,7 +126,7 @@
       ],
       "messages": [
         "/color HotPink",
-        "/me Link do chat unificado: https://maykbrito.github.io/youtube-twitch-live-chat/"
+        "Link do chat unificado: https://maykbrito.github.io/youtube-twitch-live-chat/"
       ]
     },
     {
@@ -147,7 +147,7 @@
       ],
       "messages": [
         "/color DodgerBlue",
-        "/me Nossa a jake até agora já perdeu o foco {{count}}x Kappa"
+        "Nossa a jake até agora já perdeu o foco {{count}}x Kappa"
       ]
     },
     {
@@ -163,7 +163,7 @@
       "schedule": "*/5 * * * *",
       "messages": [
         "/color DodgerBlue",
-        "/me Você já ouviu falar do discord da DevHouse? Poxa ainda não te convidaram!? NotLikeThis Clique então no link https://discord.gg/hUjdjevDCz e entra aí no nosso discord ShadyLulu Fala que foi a Thasfin que convidou! GlitchCat"
+        "Você já ouviu falar do discord da DevHouse? Poxa ainda não te convidaram!? NotLikeThis Clique então no link https://discord.gg/hUjdjevDCz e entra aí no nosso discord ShadyLulu Fala que foi a Thasfin que convidou! GlitchCat"
       ]
     }
   ]

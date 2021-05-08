@@ -6,6 +6,6 @@ module.exports = {
     channels: ['jakeliny', 'maykbrito'],
     startup: [
         "/color yellowgreen",
-        "/me A Thasfin tá na área HeyGuys"
+        "A Thasfin tá na área HeyGuys"
     ],
   };
