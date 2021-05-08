@@ -10,11 +10,12 @@
     {
       "help": "Você recebe um convite para o discord da Dev House",
       "actions": [
-        "discord"
+        "discord",
+        "devhouse"
       ],
       "messages": [
         "/color yellowgreen",
-        "/me Entra no discord da devHouse!!: https://discord.gg/hUjdjevDCz"
+        "/me Entra no discord da devHouse!!: https://discord.gg/Dxw8heVW"
       ]
     },
     {
@@ -47,17 +48,6 @@
       "messages": [
         "/color yellowgreen",
         "/me Contribua no GitHub da DEVHOUSE https://github.com/dev-house-community"
-      ]
-    },
-    {
-      "help": "DevHouse no youtube",
-      "actions": [
-        "devhouse",
-        "yt-dh"
-      ],
-      "messages": [
-        "/color yellowgreen",
-        "/me Inscreva no YouTube da DevHouse https://www.youtube.com/channel/UCFohroq6iQ6N4U4w3w4NXSw"
       ]
     },
     {
@@ -115,6 +105,28 @@
       "messages": [
         "/color HotPink",
         "/me Estamos trabalhando em um bot para a twitch, esses comandos no chat que são enviados pela ThasfinBot ja é o nosso Bot em ação. Estamos no momento refatorando e melhorando para ser um serviço que outros streamers possam usar"
+      ]
+    },
+    {
+      "help": "Mostra a descrição do projeto ThasfinBot",
+      "actions": [
+        "github",
+        "git"
+      ],
+      "messages": [
+        "/color HotPink",
+        "/me Meu github: https://github.com/jakeliny"
+      ]
+    },
+    {
+      "help": "Mostra a descrição do projeto ThasfinBot",
+      "actions": [
+        "chat",
+        "chatdevhouse"
+      ],
+      "messages": [
+        "/color HotPink",
+        "/me Link do chat unificado: https://maykbrito.github.io/youtube-twitch-live-chat/"
       ]
     },
     {
