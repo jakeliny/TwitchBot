@@ -157,10 +157,10 @@
   ],
   "automatic": [
     {
-      "schedule": "*/5 * * * *",
+      "schedule": "*/10 * * * *",
       "messages": [
         "/color DodgerBlue",
-        "Você já ouviu falar do discord da DevHouse? Poxa ainda não te convidaram!? NotLikeThis Clique então no link https://discord.gg/hUjdjevDCz e entra aí no nosso discord ShadyLulu Fala que foi a Thasfin que convidou! GlitchCat"
+        "Você já ouviu falar do discord da DevHouse? Então pega o  link https://discord.gg/hUjdjevDCz GlitchCat"
       ]
     }
   ]
