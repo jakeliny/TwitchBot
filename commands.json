@@ -15,7 +15,7 @@
       ],
       "messages": [
         "/color yellowgreen",
-        "Entra no discord da devHouse!!: https://discord.gg/Dxw8heVW"
+        "Entra no discord da devHouse!!: https://discord.gg/hUjdjevDCz"
       ]
     },
     {
@@ -28,6 +28,17 @@
         "Se inscreva na maratona discover https://maratonadiscover.rocketseat.com.br/inscricao"
       ]
     },
+    {
+      "help": "Fique sabendo mais sobre a Maratona da Discover",
+      "actions": [
+        "convidados"
+      ],
+      "messages": [
+        "/color yellowgreen",
+        "Em1dio: https://www.twitch.tv/em1dio || Rahmai: https://www.twitch.tv/RahmaiDev || xTecna: https://www.twitch.tv/xtecna"
+      ]
+    },
+
     {
       "help": "Fique sabendo mais sobre a Discover",
       "actions": [
