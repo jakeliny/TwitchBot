@@ -1,11 +1,4 @@
 {
-  "ignored-commands": [
-    "sh",
-    "sh-so",
-    "sh-mso",
-    "sh-raid",
-    "permit"
-  ],
   "commands": [
     {
       "help": "Você recebe um convite para o discord da Dev House",
