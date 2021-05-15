@@ -168,7 +168,7 @@
   ],
   "automatic": [
     {
-      "schedule": "*/10 * * * *",
+      "schedule": "*/20 * * * *",
       "messages": [
         "/color DodgerBlue",
         "Você já ouviu falar do discord da DevHouse? Então pega o  link https://discord.gg/hUjdjevDCz GlitchCat"
