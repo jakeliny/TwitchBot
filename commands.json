@@ -167,6 +167,13 @@
         "/color DodgerBlue",
         "Você já ouviu falar do discord da DevHouse? Então pega o  link https://discord.gg/hUjdjevDCz GlitchCat"
       ]
+    },
+    {
+      "schedule": "*/30 * * * *",
+      "messages": [
+        "/color DodgerBlue",
+        "Está curtindo a live? Deixa seu follow ai pra ajudar!! <3"
+      ]
     }
   ]
 }
