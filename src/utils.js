@@ -34,7 +34,7 @@ const findCommandByAction = (action, ignored, commands) => {
 const getSanitizedRender = ({ context: { cmd: { find, action } }, twitch: { context: username } }, rendered) => {
     const parsed = JSON.parse(rendered);
     const isExistentCommand = find == true;
-    if(!isExistentCommand) return {messages: ["/color Firebrick", `/me Ops @${username} acho que não existe esse comando ${action} não hein Keepo`]};
+    if(!isExistentCommand) return;
     else if(parsed == null) return null;
 
     // Função que caso a mensagem for string transforma ela em Array separando por \n
