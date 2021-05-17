@@ -121,7 +121,7 @@
       ]
     },
     {
-      "help": "Mostra a descrição do projeto ThasfinBot",
+      "help": "Chat unificado da Dev House",
       "actions": [
         "chat",
         "chatdevhouse"
