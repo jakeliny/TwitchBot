@@ -110,7 +110,7 @@
       ]
     },
     {
-      "help": "Mostra a descrição do projeto ThasfinBot",
+      "help": "GitHub da Jakeliny",
       "actions": [
         "github",
         "git"
