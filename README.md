@@ -53,9 +53,6 @@ Você pode se divertir e usar alguns comandos em live, usando o **prefixo:** `!`
 !setup
 ```
 
-
-❤️ Projeto Dev House idealizado em [live na Twitch](https://twitch.com/jakeliny) por [@jakeliny](https://github.com/jakeliny).
-
 💜 Logo criada por [@geovanipfranca](https://github.com/geovanipfranca).
 
 ## Contributors ✨
