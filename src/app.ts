@@ -12,9 +12,11 @@ function handleConnected(address: any, port: any) {
     //TODO refactor this
     utils.turnOnAutomaticMessages(channel, client);
 
+    //TODO: So rodar o startup quando o streamer acaba de abrir live, se a live 
+    // está rolando a mais de 10 minutos ou algo assim esse startup não joga o texto no chat
     const startup = [
       "/color yellowgreen",
-      "/me A Thasfin tá na área HeyGuys"
+      // "/me A Thasfin tá na área HeyGuys"
     ];
 
     startup.forEach((msg : any) => client.say(channel, msg));

@@ -94,13 +94,6 @@
         "?"
       ],
       "messages": "{{{ help }}}"
-    },
-    {
-      "help": "Este comando teste vai rodar quando alguém chamar, sem responder mensagem no chat",
-      "actions": [
-        "console"
-      ],
-      "trigger": "{{ funcaoComandoConsole }}"
     }
   ],
   "automatic": [
