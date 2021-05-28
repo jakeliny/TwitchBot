@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node index.js",
     "build": "ng build",
-    "heroku-postbuild": "ng build --prod"
+    "heroku-postbuild": "ng build --prod",
     "test": "-r dotenv/config jest"
   },
   "keywords": [],
