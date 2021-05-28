@@ -147,25 +147,6 @@
         "?"
       ],
       "messages": "{{{ help }}}"
-    },
-    {
-      "help": "Conta quantas vezes a Jake perdeu o foco, use o comando pra incrementar'!foco 0...10'",
-      "actions": [
-        "foco",
-        "lost",
-        "perdida"
-      ],
-      "messages": [
-        "/color DodgerBlue",
-        "Nossa a jake até agora já perdeu o foco {{count}}x Kappa"
-      ]
-    },
-    {
-      "help": "Este comando teste vai rodar quando alguém chamar, sem responder mensagem no chat",
-      "actions": [
-        "console"
-      ],
-      "trigger": "{{ funcaoComandoConsole }}"
     }
   ],
   "automatic": [
