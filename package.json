@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon -i 'src/database/db.json' -r dotenv/config src/app.ts",
+    "start": "node index.js",
+    "build": "ng build",
+    "heroku-postbuild": "ng build --prod"
     "test": "-r dotenv/config jest"
   },
   "keywords": [],
