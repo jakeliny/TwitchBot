@@ -52,6 +52,12 @@ Você pode se divertir e usar alguns comandos em live, usando o **prefixo:** `!`
    
 !setup
 ```
+## Para rodar localmente:
+- Duplique o arquivo .env.development com o nome .env
+- Gere um token com a sua conta da Twitch no (site do TMI.JS)[https://twitchapps.com/tmi/]
+- No arquivo .env coloque seu username da twitch no campo USER e o token gerado no campo TOKEN
+- No arquivo config na propriedade channels coloque o username das twitchs que o bot irá ler os comandos
+
 
 💜 Logo criada por [@geovanipfranca](https://github.com/geovanipfranca).
 
