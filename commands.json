@@ -118,6 +118,16 @@
       ]
     },
     {
+      "help": "Hackathon da Dev House",
+      "actions": [
+        "hackathon"
+      ],
+      "messages": [
+        "/color HotPink",
+        "Se inscreva no hackathon da Dev House: https://dev-house-community.github.io/HACKA-HOUSE/"
+      ]
+    },
+    {
       "help": "GitHub da Jakeliny",
       "actions": [
         "github",
