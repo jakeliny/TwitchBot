@@ -1,12 +1,12 @@
-const Mustache = require('mustache-async');
-const utils = require('../../utils');
+import utils  from '../../utils/utils';
+import getTemplateChannel from '../../useCases/initTemplates/initTemplates';
 
 /**
  * Método que trata todos os recebimentos de mensagens e processa comandos
  * @param client Client IRC da Twitch conectado com canal
  * @returns {(function(*=, *, *, *=): Promise<void>)|*} Função para tratamento das mensagens
  */
-module.exports = (client) => async (target, context, receivedMessage, isBot) => {
+const handleCommands = (client: any) => async (target: any, context: any, receivedMessage: any, isBot: any) => {
   // Varifica se quem mandou a mensagem não é bot e se a mensagem é um comando aceitável
   if (isBot) return;
   if (!receivedMessage.startsWith("!")) return;
@@ -14,7 +14,7 @@ module.exports = (client) => async (target, context, receivedMessage, isBot) => 
   // Inicializa as constantes para processo de tratamento do comando (action)
   const req = receivedMessage.split(" ");
   const action = req.shift();
-  const template = await utils.getTemplateChannel(target);
+  const template = await getTemplateChannel(target);
   const ignored = template["ignored-commands"];
   const commands = template["commands"];
 
@@ -29,11 +29,13 @@ module.exports = (client) => async (target, context, receivedMessage, isBot) => 
   try {
     // Partials se refe aos useCommands que podem ser chamados a partir
     const partials = await require('../../useCommands')(args);
-    const rendered = await Mustache.render(JSON.stringify(cmd.command), { ...partials, ...args });
+    const rendered = await JSON.stringify(cmd.command);
     const parsed = utils.getSanitizedRender(args, rendered);
     const shouldPrintMessages = parsed != null && Array.isArray(parsed.messages);
 
-    if (shouldPrintMessages) parsed["messages"].forEach(message => client.say(target, message));
+    if (shouldPrintMessages) parsed["messages"].forEach((message: any) => client.say(target, message));
   }
   catch (e) { utils.sendErrorCommand(client, args, e); }
 }
+
+export default handleCommands

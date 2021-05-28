@@ -8,14 +8,14 @@
  * @param rendered O render do commands.json após os useCommands terem sidos acionados caso sejam necessários (json string)
  * @returns {{messages: string[]}|null|command}
  */
- const getSanitizedRender = ({ context: { cmd: { find, action } }, twitch: { context: username } }, rendered) => {
+ const getSanitizedRender = ({ context: { cmd: { find, action } }, twitch: { context: username } }: any, rendered: any) => {
     const parsed = JSON.parse(rendered);
     const isExistentCommand = find == true;
     if(!isExistentCommand) return {messages: ["/color Firebrick", `/me Ops @${username} acho que não existe esse comando ${action} não hein Keepo`]};
     else if(parsed == null) return null;
 
     // Função que caso a mensagem for string transforma ela em Array separando por \n
-    const sanitizeMessagesFromStringToArray = ({ messages }) => {
+    const sanitizeMessagesFromStringToArray = ({ messages }: any) => {
         if(typeof messages == "string") return messages.split("~break~");
         return messages;
     }

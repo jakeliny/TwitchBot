@@ -8,7 +8,7 @@
  * @param action Comando solicitado pelo @
  * @param error Erro com trace do ocorrido e mensagem
  */
- const sendErrorCommand = (client: any, { twitch: { target, context: { username } }, context: { action } }, error) => {
+ const sendErrorCommand = (client: any, { twitch: { target, context: { username } }, context: { action } }: any, error: any) => {
     // Ternário que pega o usuário do dono do canal para utilizar na mensagem
     const owner = target.startsWith("#") ? target.substring(1, target.length) : target;
 

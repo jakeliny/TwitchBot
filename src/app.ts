@@ -3,24 +3,23 @@ import handleCommands from './useCases/handleCommands/handleCommands';
 import utils from './utils/utils';
 import config from './config';
 
+const client = new tmi.client(config);
+client.on('message', handleCommands(client));
+
 function handleConnected(address: any, port: any) {
-  console.log(`*** Bot conectado com sucesso no IRC (${address}:${port}} nos canais [${options.channels}]`);
+  console.log(`*** Bot conectado com sucesso no IRC (${address}:${port}} nos canais [${config.channels}]`);
   config.channels?.forEach(channel => {
     //TODO refactor this
-    utils.turnOnAutomaticMessages(channel, this);
+    utils.turnOnAutomaticMessages(channel, client);
 
     const startup = [
       "/color yellowgreen",
       "/me A Thasfin tá na área HeyGuys"
     ];
 
-    startup.forEach((msg : any) => this.say(channel, msg));
+    startup.forEach((msg : any) => client.say(channel, msg));
   })
 }
 
-const client = new tmi.client(config);
-
-client.on('message', handleCommands(client));
 client.on('connected', handleConnected);
-
 client.connect();

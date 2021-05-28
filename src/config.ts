@@ -5,7 +5,7 @@ const config : Options = {
     username: 'thasfinbot',
     password: process.env.TOKEN,
   },
-  channels: ['jakeliny', 'maykbrito'],
+  channels: ['jakeliny']
   };
 
 export default config;

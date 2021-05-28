@@ -1,13 +1,24 @@
-const utils = require("../../utils")
+import utils from "../../utils/utils";
 
 /**
  * Método faz o join da mensagem pelo prefixo do break
  * @param messages Array de mensagens que será feito o join
  * @returns {string} String unica com todas as posições do array separados por ~break~
  */
-const JoinMessagesToSanitizeResponse = (messages) => {
+const JoinMessagesToSanitizeResponse = (messages: any) => {
     return messages.join("~break~");
 }
+
+interface Twitch{ 
+    twitch: { 
+        context: { 
+            username: String
+        } }, 
+        context: { 
+            req: any, 
+            commands: any, 
+            ignored: any
+        } }
 
 /**
  * Método que busca o help de um comando, sendo ele restrito ou não, caso o comando não exista ele dá uma mensagem amigável
@@ -17,7 +28,7 @@ const JoinMessagesToSanitizeResponse = (messages) => {
  * @param ignored Lista de comandos ignorados para o canal
  * @returns {string} Retorna uma array de string com o join de ~break~ para saber quando tem que separar (Mustache não gera um array ele coloca erroneamente um array dentro da string)
  */
-module.exports = ({ twitch: { context: { username } }, context: { req, commands, ignored} }) => {
+const help = ({ twitch: { context: { username } }, context: { req, commands, ignored} } : Twitch) => {
     let action = "help";
     if (req.length != 0) { action = req.shift(); }
 
@@ -30,3 +41,5 @@ module.exports = ({ twitch: { context: { username } }, context: { req, commands,
 
     return JoinMessagesToSanitizeResponse(["/color YellowGreen", `/me Olha @${username} achei isso aqui, ajuda? ${command.help}`]);
 }
+
+export default help 

@@ -1,5 +1,5 @@
-const cron = require('node-cron');
-
+import cron from 'node-cron';
+import getTemplateChannel from '../useCases/initTemplates/initTemplates';
 /**
  * Este método inicia mensagens automáticas disparadas por cron, sejam elas a cada minuto ou um dia/hora específica
  * pode se utilizar o site https://crontab.guru para criar as crontabs personalizadas
