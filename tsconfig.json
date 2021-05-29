@@ -70,6 +70,13 @@
     "allowJs": true,
     "outDir": "build",
     "compileOnSave": true,
-     "buildOnSave": true
+    "buildOnSave": true,
+    "include": [
+      "server/**/*.ts",
+      "server/*.ts"
+    ],
+    "exclude": [
+      "node_modules"
+    ]
   }
 }
