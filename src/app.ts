@@ -6,7 +6,7 @@ import config from './config';
 
 const app = express();
 app.get('/', (req, res) => res.send('Thasfin Bot is running'));
-app.listen(3000, () => {console.log('⚡️Server is running');
+app.listen(process.env.PORT, () => {console.log('⚡️Server is running');
 });
 
 const client = new tmi.client(config);
