@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node ./index.js",
     "heroku-postbuild": "ng build --prod",
     "test": "-r dotenv/config jest"
   },
