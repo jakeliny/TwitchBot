@@ -1,10 +1,10 @@
 {
-  "name": "bottwitch",
+  "name": "thasfinbot",
   "version": "1.0.0",
   "description": "",
   "main": "app.ts",
   "scripts": {
-    "start": "node app.js"
+    "start": "node ./app.js"
   },
   "keywords": [],
   "author": "",
