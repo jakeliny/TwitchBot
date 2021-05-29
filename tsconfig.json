@@ -72,8 +72,8 @@
     "compileOnSave": true,
     "buildOnSave": true,
     "include": [
-      "server/**/*.ts",
-      "server/*.ts"
+      "src/**/*.ts",
+      "src/*.ts"
     ],
     "exclude": [
       "node_modules"
