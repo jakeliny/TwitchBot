@@ -3,10 +3,16 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+var express_1 = __importDefault(require("express"));
 var tmi_js_1 = __importDefault(require("tmi.js"));
 var handleCommands_1 = __importDefault(require("./useCases/handleCommands/handleCommands"));
 var utils_1 = __importDefault(require("./utils/utils"));
 var config_1 = __importDefault(require("./config"));
+var app = express_1.default();
+app.get('/', function (req, res) { return res.send('Thasfin Bot is running'); });
+app.listen(3000, function () {
+    console.log('⚡️Server is running');
+});
 var client = new tmi_js_1.default.client(config_1.default);
 client.on('message', handleCommands_1.default(client));
 function handleConnected(address, port) {
