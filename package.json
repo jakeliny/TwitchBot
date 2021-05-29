@@ -4,7 +4,8 @@
   "description": "",
   "main": "app.ts",
   "scripts": {
-    "start": "node ./build/app.js"
+    "start": "node ./build/app.js",
+    "dev": "nodemon -i 'src/database/db.json' -r dotenv/config src/app.ts"
   },
   "keywords": [],
   "author": "",
