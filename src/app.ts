@@ -1,7 +1,13 @@
+import express from 'express';
 import tmi from 'tmi.js';
 import handleCommands from './useCases/handleCommands/handleCommands';
 import utils from './utils/utils';
 import config from './config';
+
+const app = express();
+app.get('/', (req, res) => res.send('Thasfin Bot is running'));
+app.listen(3000, () => {console.log('⚡️Server is running');
+});
 
 const client = new tmi.client(config);
 client.on('message', handleCommands(client));
