@@ -10,7 +10,7 @@ var utils_1 = __importDefault(require("./utils/utils"));
 var config_1 = __importDefault(require("./config"));
 var app = express_1.default();
 app.get('/', function (req, res) { return res.send('Thasfin Bot is running'); });
-app.listen(3000, function () {
+app.listen(process.env.PORT, function () {
     console.log('⚡️Server is running');
 });
 var client = new tmi_js_1.default.client(config_1.default);
